@@ -1,2 +1,3 @@
-merix-advertisement
-===================
+The ads were created with Google Web Designer and Vanilla JavaScript. To animate sentences we used Google Web Designer but background animation has been developed by us. You can change the amount of dots, bounce area and distance to see linked dots. All points are separate objects so that it allows to generate random position, velocity, direction and different bounce area.
+All dots are linked all the time but the script calculates the distance between them and if the distance is closer than defined the lines are being displayed. The closer the dots are to each other the more visible lines are.
+The bounce effect is created by inverse velocity in axis when border of area is reached. All calculations are made for every frame - this allows us to create smooth animation.
